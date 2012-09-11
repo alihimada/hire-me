@@ -1,5 +1,9 @@
 User Experience (UX) Extraordinaire
 ===================================
+tl;dr
+-----
+We want **passionate UX designers** who are smart, get things done, and love designing whether it be in **Adobe Photoshop**, or **HTML and CSS** (and, of course, can **demonstrate their passion**). We are a small startup in **Kitchener, Ontario**, growing rapidly. Currently, we are only looking for **co-operative education students** (who can contact us at co-op@willetinc.com).
+
 Who are you?
 ------------
 **You are a designer.** Things like typography matter to you; you appreciate the difference between Arial, Helvetica, and Calibri. You could go on-and-on about colour theory, white-space, and element arrangement. Your tools of the trade are Adobe Photoshop and Illustrator (or the GIMP and Inkscape, if you're a big fan of open-source tech) but your skills aren't limited to just static art. You know that every piece of a web application is part of a potential fluid and beautiful design.
