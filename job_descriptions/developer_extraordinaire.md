@@ -1,9 +1,11 @@
 Developer Extraordinaire
 ========================
+tl;dr
+-----
+We want **passionate developers** who are smart, get things done, and love developing in **Javascript**, **Python**, and **Google App Engine** (and, of course, can **demonstrate their passion**). We are a small startup in **Kitchener, Ontario**, growing rapidly. Currently, we are only looking for **co-operative education students**.
 
 Who are you?
 ------------
-
 **You are a hacker.** You get excited to work on tough problems, and coming up with interesting solutions. You're an early adopter; an innovator; you've tried all sorts of different languages and technologies; you're that person who's always tinkering on something. You're not a code monkey: you solve problems. You get things done, you're smart, and doggone it, you like it that way!
 
 **You are passionate.** We might find you on StackOverflow asking and answering questions, hacking away at an open-source project on Github, or writing about software development or something else awesome on your blog. Maybe you're a big fan of Behaviour-Driven Development (BDD) or Test-Driven Development (TDD) and want the whole world to know, or love talking for hours on the advantages (or disadvantages) of dynamic languages. You get excited about technology.
