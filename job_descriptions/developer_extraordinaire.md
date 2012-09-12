@@ -1,5 +1,6 @@
 Developer Extraordinaire
 ========================
+
 tl;dr
 -----
 We want **passionate developers** who are smart, get things done, and love developing in **Javascript**, **Python**, and **Google App Engine** (and, of course, can **demonstrate their passion**). We are a small startup in **Kitchener, Ontario**, growing rapidly. Currently, we are only looking for **co-operative education students** (who can contact us at co-op@willetinc.com).
@@ -38,7 +39,7 @@ More specifically, we are located in the Velocity garage at the Tannery District
 
 How you can apply:
 ------------------
-We are looking for passionate individuals. If you think you have what it takes to work at Willet, you should get in touch with us with three things: *a reason why we should hire you*, *a copy of your resume*, and *something that shows your passion* including, but not limited to…
+We are looking for passionate individuals. If you think you have what it takes to work at Willet, you should get in touch with us with three things: *a reason why we should hire you*, *a copy of your resume*, and *something that shows your passion* including, but not limited to...
 - Github / Bitbucket / etc.
 - StackOverflow / StackExchange account
 - Portfolio

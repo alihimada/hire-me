@@ -1,5 +1,6 @@
 User Experience (UX) Extraordinaire
 ===================================
+
 tl;dr
 -----
 We want **passionate UX designers** who are smart, get things done, and love designing whether it be in **Adobe Photoshop**, or **HTML and CSS** (and, of course, can **demonstrate their passion**). We are a small startup in **Kitchener, Ontario**, growing rapidly. Currently, we are only looking for **co-operative education students** (who can contact us at co-op@willetinc.com).
@@ -48,5 +49,3 @@ We are looking for passionate individuals. If you think you have what it takes t
 - An active hacker news, twitter, or reddit account (hopefully /r/programming or the like)
 
 We're more interested in how awesome you are, so please **don't forget to include something that shows your passion**. Once you have that, you can send it to hiring@willetinc.com, or find us and really impress us.
-
-
