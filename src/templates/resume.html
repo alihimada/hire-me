@@ -1,0 +1,92 @@
+{% extends "templates/base.html" %} 
+{% block title %}{{ author }}'s Resume{% endblock title %}
+{% block description %}{% endblock description %}
+
+{% block css %}
+<link rel="stylesheet" href="stylesheets/custom.css" />
+{% endblock css %}
+
+{% block js %}{% endblock js %}
+
+{% block body %}
+
+    <h1>{{ author }}</h1>
+
+    {% if contact.address %}
+    <address>
+        {{ contact.address.street1 }}<br/>
+        {% if contact.address.street2 %}
+            {{ contact.address.street2 }}<br/>
+        {% endif %}
+        {{ contact.address.city }}, {{ contact.address.province }}
+        {{ contact.address.postal_code }}
+    </address>
+    {% endif %}
+
+    <h2>Education</h2>
+
+    {# the `sort` filter makes it easy to display experience in reverse chronological order #}
+    {% for school in education|sort(attribute='start', reverse=True) %}
+    <div class="school">
+
+        <div class="side-by-side">
+            <div class="title ten columns alpha">{{ school.title }}</div>
+            <div class="period six columns omega">
+                {{ school.start.strftime('%Y-%m') }}
+                -
+                {% if school.end %}
+                    {{ school.end.strftime('%Y-%m')  }}
+                {% else %}
+                    Present
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="location">
+            {{ school.business }}, {{ school.location }}
+        </div>
+
+        {% if school.notes %}
+        <ul class="notes square">
+            {% for note in school.notes %}
+            <li class="note">{{ note }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+    </div>
+    {% endfor %}
+
+    <h2>Experience</h2>
+    {% for company in experience|sort(attribute='start', reverse=True) %}
+    <div class="company">
+
+        <div class="side-by-side">
+            <div class="title ten columns alpha">{{ company.title }}</div>
+            <div class="period six columns omega">
+                {{ company.start.strftime('%Y-%m') }}
+                -
+                {% if company.end %}
+                    {{ company.end.strftime('%Y-%m')  }}
+                {% else %}
+                    Present
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="location">
+            {{ company.business }}, {{ company.location }}
+        </div>
+
+        {% if company.notes %}
+        <ul class="notes square">
+            {% for note in company.notes %}
+            <li class="note">{{ note }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+    </div>
+    {% endfor %}
+
+{% endblock body %}
