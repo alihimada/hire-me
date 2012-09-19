@@ -19,6 +19,7 @@ Setup
 - fork this repository
 - install the [Google App Engine SDK for Python](https://developers.google.com/appengine/docs/python/gettingstartedpython27/devenvironment)
 - create an `app.yaml` file in the `src` directory, like this:
+
         application: your-appspot-name
         version: 1
         runtime: python27
